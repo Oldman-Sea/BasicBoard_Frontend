@@ -11,7 +11,7 @@ const PostListPage = () => {
             검색어 입력
           </form>
 
-          <a href="">
+          <a href="#">
             기록하기
           </a>
         </section>
@@ -23,11 +23,21 @@ const PostListPage = () => {
             <time datetime="2024-07-26"></time>
           </article>
         </section>
+
+        <nav>
+          <a href="#" class="prev">&lsaquo;</a>
+
+          <a href="#">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+
+          <a href="#" class="prev">&rsaquo;</a>
+        </nav>
       </main>
 
-      <nav>
-        1 2 3 4 5
-      </nav>
+
     </>
   );
 }
