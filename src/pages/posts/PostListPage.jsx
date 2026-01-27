@@ -54,7 +54,7 @@ const PostListPage = () => {
               w-[95%]
               "
             />
-            
+
             <button
               className="
               ml-auto
@@ -82,17 +82,28 @@ const PostListPage = () => {
           </a>
         </section>
 
-        {/* 게시글 목록 */}
-        <section>
-          <article>
-            <h3>체험단 취소는 어떻게 하나요?</h3>
-            <p>
-              체험단 하면서 목과 어깨가 너무 안좋아져서
-              이제 살려고 당첨된거 취소할려고 하는데 취소 버튼이 안보이네요
-              취소는 어디서 하면 될까요?
-            </p>
-            <time datetime="2024-07-26">2024.07.26</time>
+        {/* 게시글 목록 레이아웃*/}
+        <section className="h-screen">
+
+          <article className="h-[20%] border-b-2 flex items-center border-gray-300">
+            <div className="ml-4 flex flex-col">
+              <h3 className="font-semibold mb-1">
+                체험단 취소는 어떻게 하나요?
+              </h3>
+              <p className="font-extralight text-xs mb-5">
+                체험단 하면서 목과 어깨가 너무 안좋아져서
+                이제 살려고 당첨된거 취소할려고 하는데 취소 버튼이 안보이네요
+                취소는 어디서 하면 될까요?
+              </p>
+              <time
+                datetime="2024-07-26"
+                className="text-xs font-light"
+              >
+                2024.07.26
+              </time>
+            </div>
           </article>
+
         </section>
 
         {/* 페이지네이션 */}
