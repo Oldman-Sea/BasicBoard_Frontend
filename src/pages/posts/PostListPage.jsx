@@ -135,9 +135,7 @@ const PostListPage = () => {
           <a href="#" className="">4</a>
           <a href="#" className="">5</a>
 
-          <a href="#" className="">
-            <img src="/src/assets/icons/dotdotdot.svg" alt="점점점" />
-          </a>
+          <img src="/src/assets/icons/dotdotdot.svg" alt="점점점" />
 
           <a href="#" className="">14</a> {/*최대 페이지*/}
 
