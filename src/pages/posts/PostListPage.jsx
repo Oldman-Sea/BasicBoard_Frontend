@@ -5,6 +5,7 @@ const PostListPage = () => {
         className="
         w-[60%]
         h-screen
+        pt-10
         flex flex-col
         justify-start
         mx-auto
@@ -32,7 +33,7 @@ const PostListPage = () => {
           flex justify-end
           items-center
           relative
-          pt-4
+          pt-3
           border-b-2
           border-gray-400
           "
@@ -92,17 +93,17 @@ const PostListPage = () => {
 
           <article className="h-[20%] border-b-2 flex items-center border-gray-300/30">
             <div className="ml-4 flex flex-col">
-              <h3 className="font-semibold mb-1">
+              <h3 className="font-medium mb-1">
                 체험단 취소는 어떻게 하나요?
               </h3>
-              <p className="font-extralight text-xs mb-5">
+              <p className="font-ight text-xs text-[#5D5F67] mb-5">
                 체험단 하면서 목과 어깨가 너무 안좋아져서
                 이제 살려고 당첨된거 취소할려고 하는데 취소 버튼이 안보이네요
                 취소는 어디서 하면 될까요?
               </p>
               <time
                 datetime="2024-07-26"
-                className="text-xs font-light"
+                className="text-xs font-light text-[#AAAAAA]"
               >
                 2024.07.26
               </time>
@@ -116,6 +117,8 @@ const PostListPage = () => {
           className="
           mx-auto
           mt-auto
+          mb-5
+          pt-1
           w-[25%]
           flex
           justify-between
