@@ -3,10 +3,10 @@ const PostListPage = () => {
     <>
       <main
         className="
+        w-[60%]
         h-screen
         flex flex-col
         justify-start
-        w-[60%]
         mx-auto
         "
       >
@@ -17,7 +17,7 @@ const PostListPage = () => {
           "
         >
           <h2
-            className="font-bold text-2xl text-[#76441D]"
+            className="font-bold text-2xl text-[#76441D] mt-2"
             style={{ fontFamily: '"Noto Serif KR", serif' }}
           >
             나의 B로그
