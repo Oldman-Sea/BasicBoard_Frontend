@@ -79,12 +79,14 @@ const PostListPage = () => {
             py-2
             rounded-sm
             bg-[#77451E]
-            text-white
-            text-xs
-            min-w-20
+            min-w-28
+            inline-flex
+            items-center
+            gap-1.5
             "
           >
-            기록하기
+            <img src="/src/assets/icons/pencil.svg" alt="연필 아이콘" className="w-4 h-4 ml-1" />
+            <span className="text-white text-xs">기록하기</span>
           </a>
         </section>
 
