@@ -131,7 +131,7 @@ const PostListPage = () => {
           "
         >
           <a href="#">
-            <img src="/src/assets/icons/AngleBracket.svg" alt="꺽쇠" />
+            <img src="/src/assets/icons/blackAngleBracket.svg" alt="꺽쇠" />
           </a> {/* 왼쪽 꺽쇠 */}
           
           <a href="#" className="font-bold text-black">1</a> {/*현재 페이지일때는 text-bold, text-black */}
@@ -145,7 +145,7 @@ const PostListPage = () => {
           <a href="#" className="">14</a> {/*최대 페이지*/}
 
           <a href="#">
-            <img src="/src/assets/icons/AngleBracket.svg" alt="꺽쇠" className="-scale-x-100" />
+            <img src="/src/assets/icons/blackAngleBracket.svg" alt="꺽쇠" className="-scale-x-100" />
           </a> {/* 오른쪽 꺽쇠 */}
         </nav>
       </main>
