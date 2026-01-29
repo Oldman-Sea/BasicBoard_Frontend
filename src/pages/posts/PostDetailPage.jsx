@@ -56,12 +56,12 @@ const PostDetailPage = () => {
 
           <div className="h[27%] flex flex-col">
             <nav className="border-2 flex flex-row justify-center gap-1.5">
-              <button className="flex items-center gap-0.5 bg-[#C4C5CA] px-2 py-1">
+              <button className="flex items-center gap-0.5 bg-[#C4C5CA] rounded px-2 py-1">
                 <img src="/src/assets/icons/whiteAngleBracket.svg" alt="꺽쇠" className="w-4 h-4" />
                 <span className="text-white text-sm">이전글</span>
               </button>
 
-              <button className="flex items-center gap-0.5 bg-[#19191B] px-2 py-1">
+              <button className="flex items-center gap-0.5 bg-[#19191B] rounded px-2 py-1">
                 <span className="text-white text-sm">다음글</span>
                 <img src="/src/assets/icons/whiteAngleBracket.svg" alt="꺽쇠" className="-scale-x-100 w-4 h-4" />
               </button>
