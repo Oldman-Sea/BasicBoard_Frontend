@@ -1,7 +1,71 @@
 const PostCreatePage = () => {
   return (
     <>
-      포스트 만듦
+      <main
+        className="
+        w-screen
+        mt-[20vh]
+        h-[80vh]
+        flex
+        justify-center
+        "
+      >
+        <form
+          className="
+          w-[60%]
+          h-[50%]
+          px-2
+          "
+        >
+          <div
+            className="
+            w-full
+            h-[33%]
+            border-b-2
+          border-gray-300/30
+            "
+          >
+            <input
+              type="text"
+              placeholder="제목"
+              className="
+              w-full
+              mt-5
+              focus:outline-none
+              placeholder-gray-400
+              placeholder:text-2xl
+              font-medium
+              text-2xl
+              "
+            />
+          </div>
+
+          <div
+            className="
+            w-full
+            h-[67%]
+            "
+          >
+            <textarea
+              placeholder="오늘의 시간을, 여기에 남겨보세요"
+              className="
+              w-full
+              h-full
+              pt-9
+              focus:outline-none
+              resize-none
+              placeholder-gray-400
+              placeholder:text-sm
+              text-base
+              "
+            />
+          </div>
+        </form>
+
+        <footer>
+
+        </footer>
+      </main>
     </>
   );
 }
