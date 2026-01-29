@@ -89,7 +89,7 @@ const PostDetailPage = () => {
                 flex
                 items-center
                 gap-0.5
-                bg-[#19191B]
+                bg-[#77451E]
                 rounded
                 px-2
                 py-1.5
@@ -154,7 +154,7 @@ const PostDetailPage = () => {
                   alt="연필"
                   className="w-4 h-4"
                 />
-                
+
                 <span className="font-semibold">
                   수정하기
                 </span>
