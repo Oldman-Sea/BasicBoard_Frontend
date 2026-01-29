@@ -54,26 +54,26 @@ const PostDetailPage = () => {
             </p>
           </section>
 
-          <div className="h[27%] border-2">
-            <nav>
-              <button>
-                <img src="/src/assets/icons/AngleBracket.svg" alt="꺽쇠" />
-                <span>이전글</span>
+          <div className="h[27%] flex flex-col">
+            <nav className="border-2 flex flex-row justify-center gap-1.5">
+              <button className="flex items-center gap-0.5 bg-[#C4C5CA] px-2 py-1">
+                <img src="/src/assets/icons/whiteAngleBracket.svg" alt="꺽쇠" className="w-4 h-4" />
+                <span className="text-white text-sm">이전글</span>
               </button>
 
-              <button>
-                <span>다음글</span>
-                <img src="/src/assets/icons/AngleBracket.svg" alt="꺽쇠" className="-scale-x-100" />
+              <button className="flex items-center gap-0.5 bg-[#19191B] px-2 py-1">
+                <span className="text-white text-sm">다음글</span>
+                <img src="/src/assets/icons/whiteAngleBracket.svg" alt="꺽쇠" className="-scale-x-100 w-4 h-4" />
               </button>
             </nav>
 
-            <footer>
-              <button>
+            <footer className="border-2">
+              <button className="">
                 <img src="/src/assets/icons/brownX.svg" alt="X" />
                 <span>삭제하기</span>
               </button>
 
-              <button>
+              <button className="">
                 <img src="/src/assets/icons/pencil.svg" alt="연필" />
                 <span>수정하기</span>
               </button>
